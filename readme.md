@@ -25,9 +25,9 @@ I recommend the following *excellent* Eagle tutorials (ones with asterisks I fin
 
 ## Especially tricky stuff to be aware of in Eagle:  
 * Restring settings:  
-** https://www.element14.com/community/community/experts/blog/2012/03/02/eagle--what-are-the-restring-settings-in-the-design-rules-for
-** https://cadsoft.io/support/faq/#2
-** Also read the manual that comes with Eagle when you install it, pages 149-151, "Restring (Pad and Via Diameter)" section. It is found in C:\EAGLE-7.7.0\doc\manual_en.pdf. 
+ * https://www.element14.com/community/community/experts/blog/2012/03/02/eagle--what-are-the-restring-settings-in-the-design-rules-for
+ * https://cadsoft.io/support/faq/#2
+ * Also read the manual that comes with Eagle when you install it, pages 149-151, "Restring (Pad and Via Diameter)" section. It is found in C:\EAGLE-7.7.0\doc\manual_en.pdf. 
 
 ## Articles I've written on Eagle:  
 http://www.electricrcaircraftguy.com/search/label/EagleCAD  
