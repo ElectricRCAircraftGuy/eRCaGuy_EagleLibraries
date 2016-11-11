@@ -145,7 +145,7 @@
 <package name="NO_PACKAGE">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
-<package name="ARDUINO_NANO_PLUG_IN">
+<package name="ARDUINO_NANO_FOOTPRINT">
 <description>Footprint for representing an Arduino Nano board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle&lt;br&gt;&lt;br&gt;
 
 Edited by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&gt;www.ElectricRCAircraftGuy.com&lt;/a&gt;) Nov 2016 to remove the ICSP header and USB pins, so that it can be used as a female receptacle part on a PCB, to accept a plugged-in Arduino Nano.</description>
@@ -309,13 +309,12 @@ Created By Gabriel Staples&lt;br&gt;
 </package>
 </packages>
 <symbols>
-<symbol name="LETTER_L">
+<symbol name="LETTER_8.5X11">
+<description>7.30" x 9.80" frame for 8.5" x 11" paper</description>
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
 <wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
-<dimension x1="0" y1="0" x2="248.92" y2="0" x3="124.46" y3="-5.08" textsize="2.54" textratio="10" layer="94" unit="inch"/>
-<dimension x1="0" y1="185.42" x2="0" y2="0" x3="-7.62" y3="92.71" textsize="1.27" textratio="10" layer="94" unit="inch"/>
 </symbol>
 <symbol name="DOCFIELD_PROPRIETARY">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
@@ -379,7 +378,7 @@ Created By Gabriel Staples&lt;br&gt;
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
-<symbol name="ARDUINO_NANO_PLUG_IN">
+<symbol name="ARDUINO_NANO_FOOTPRINT">
 <description>Schematic symbol for representing an Arduino Nano v3.0 board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle&lt;br&gt;&lt;br&gt;
 
 Edited by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&gt;www.ElectricRCAircraftGuy.com&lt;/a&gt;) Nov 2016 to remove the ICSP header and USB pins, so that it can be used as a female receptacle part on a PCB, to accept a plugged-in Arduino Nano.</description>
@@ -478,7 +477,7 @@ Standard 8.5x11 US Letter frame&lt;br&gt;&lt;br&gt;
 
 Proprietary version created by Gabriel Staples Nov 2016 from the Sparkfun version.</description>
 <gates>
-<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="G$1" symbol="LETTER_8.5X11" x="0" y="0"/>
 <gate name="V" symbol="DOCFIELD_PROPRIETARY" x="147.32" y="0" addlevel="must"/>
 </gates>
 <devices>
@@ -501,7 +500,7 @@ Proprietary version created by Gabriel Staples Nov 2016 from the Sparkfun versio
 <description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
 Standard 8.5x11 US Letter frame</description>
 <gates>
-<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="G$1" symbol="LETTER_8.5X11" x="0" y="0"/>
 <gate name="V" symbol="DOCFIELD_CREATIVE_COMMONS" x="147.32" y="0" addlevel="must"/>
 </gates>
 <devices>
@@ -520,7 +519,7 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_NANO_PLUG_IN" prefix="PCB" uservalue="yes">
+<deviceset name="ARDUINO_NANO_FOOTPRINT" prefix="PCB" uservalue="yes">
 <description>&lt;b&gt;Arduino Nano footprint--for soldering a Nano onto a PCB&lt;/b&gt;&lt;br&gt;
 Created By Gabriel Staples&lt;br&gt;
 &lt;a href="http://www.electricrcaircraftguy.com/"&gt;www.ElectricRCAircraftGuy.com&lt;/a&gt;&lt;br&gt;
@@ -533,10 +532,10 @@ More EAGLE documentation at: &lt;a href="http://www.element14.com/community/comm
 
 Edited by Gabriel Staples Nov 2016 to remove the ICSP header and USB pins, so that it can be used as a female receptacle part on a PCB, to accept a plugged-in Arduino Nano.</description>
 <gates>
-<gate name="G$1" symbol="ARDUINO_NANO_PLUG_IN" x="0" y="2.54"/>
+<gate name="G$1" symbol="ARDUINO_NANO_FOOTPRINT" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="ARDUINO_NANO_PLUG_IN">
+<device name="" package="ARDUINO_NANO_FOOTPRINT">
 <connects>
 <connect gate="G$1" pin="3V3" pad="3V3"/>
 <connect gate="G$1" pin="5V" pad="5V"/>

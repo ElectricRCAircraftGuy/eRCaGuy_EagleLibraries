@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -288,12 +288,6 @@ Created By Gabriel Staples&lt;br&gt;
 &lt;a href="http://www.electricrcaircraftguy.com/"&gt;www.ElectricRCAircraftGuy.com&lt;/a&gt;&lt;br&gt;
 &lt;b&gt;Last Updated:&lt;/b&gt; 10 Nov 2016&lt;br&gt;&lt;br&gt; 
 
-Drill: 31.49606 mil&lt;br&gt;
-Diameter: 40 mil&lt;br&gt;
-&lt;b&gt;NB: TO GET THIS PART'S PADS TO COME OUT CORRECTLY IN THE BOARD LAYOUT YOU *MUST* SET YOUR RESTRING SETTINGS PROPERLY, AS FOLLOWS!&lt;/b&gt;&lt;br&gt;
-In the board layout: Edit --&gt; Design rules --&gt; "Restring" tab --&gt; set Pads Top, Inner (optional if only doing a 2-layer board), and Bottom " Min" settings to "&lt;b&gt;4mil&lt;/b&gt;" each, and the "%" settings to &lt;b&gt;13&lt;/b&gt;! &lt;br&gt;&lt;br&gt;
-
-
 &lt;b&gt;Part No:&lt;/b&gt; YSL-R596CR3G4B5C-C10&lt;br&gt;
 &lt;b&gt;Datasheet:&lt;/b&gt; &lt;a href="https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf"&gt;https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf&lt;/a&gt;&lt;br&gt;</description>
 <circle x="0" y="0" radius="2.5" width="0.127" layer="51"/>
@@ -481,7 +475,7 @@ Created By Gabriel Staples&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME_LETTER_PROPRIETARY" prefix="FRAME">
+<deviceset name="FRAME-LETTER-PROPRIETARY" prefix="FRAME">
 <description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
 Standard 8.5x11 US Letter frame&lt;br&gt;&lt;br&gt;
 
@@ -506,7 +500,7 @@ Proprietary version created by Gabriel Staples Nov 2016 from the Sparkfun versio
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME_LETTER" prefix="FRAME">
+<deviceset name="FRAME-LETTER" prefix="FRAME">
 <description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
 Standard 8.5x11 US Letter frame</description>
 <gates>
