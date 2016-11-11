@@ -1,7 +1,7 @@
 # Electric RC Aircraft Guy's Eagle Libraries  
-Readme Last Updated: 11 Nov 2016  
+## [www.ElectricRCAircraftGuy.com](http://www.electricrcaircraftguy.com/)
 By: Gabriel Staples  
-(http://www.electricrcaircraftguy.com/)[www.ElectricRCAircraftGuy.com]  
+Readme Last Updated: 11 Nov 2016  
 
 ## License:  
 This library (eRCaGuy_EagleLibraries) is released under the Creative Commons ShareAlike 4.0 International license (https://creativecommons.org/licenses/by-sa/4.0/). You are welcome to use this library for commercial purposes.  
@@ -13,10 +13,10 @@ This library (eRCaGuy_EagleLibraries) is released under the Creative Commons Sha
 ## How to Use Eagle:  
 I recommend the following *excellent* Eagle tutorials:  
 * [Installing an Eagle Library](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle#using-the-sparkfun-libraries)
-* [Installing Eagle](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle)
-* [Creating Schematics](https://learn.sparkfun.com/tutorials/using-eagle-schematic)
-* [Creating Boards](https://learn.sparkfun.com/tutorials/using-eagle-board-layout)
+* *****[Installing Eagle](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle)
+* *****[Creating Schematics](https://learn.sparkfun.com/tutorials/using-eagle-schematic)
+* *****[Creating Boards](https://learn.sparkfun.com/tutorials/using-eagle-board-layout)
 * [Designing Custom Footprints](https://learn.sparkfun.com/tutorials/designing-pcbs-smd-footprints)
 * [Creating Footprints from Digital Imagery](https://learn.sparkfun.com/tutorials/making-custom-footprints-in-eagle)
-* https://learn.adafruit.com/ktowns-ultimate-creating-parts-in-eagle-tutorial/introduction
+* *****https://learn.adafruit.com/ktowns-ultimate-creating-parts-in-eagle-tutorial/introduction
 
