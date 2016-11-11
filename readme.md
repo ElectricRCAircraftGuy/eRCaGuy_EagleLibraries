@@ -1,12 +1,15 @@
 # Electric RC Aircraft Guy's Eagle Libraries  
 ## [www.ElectricRCAircraftGuy.com](http://www.electricrcaircraftguy.com/)
 ## Donate & Download -- a few of my Arduino Libraries and downloads:  https://gumroad.com/gabrielstaples  
-(Or, [donate directly](http://www.electricrcaircraftguy.com/2016/01/contribute.html))
+(Or, [donate directly](http://www.electricrcaircraftguy.com/2016/01/contribute.html))  
 By: Gabriel Staples  
 Readme Last Updated: 11 Nov 2016  
 
 ## License:  
 This library (eRCaGuy_EagleLibraries) is released under the Creative Commons ShareAlike 4.0 International license (https://creativecommons.org/licenses/by-sa/4.0/). You are welcome to use this library for commercial purposes.  
+
+## To use this library:  
+[There are better ways](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle#using-the-sparkfun-libraries), but the easiest way is to simply download and copy/paste any *.lbr files above into your "C:\EAGLE-7.7.0\lbr" (or equivalent) directory. Now they are available for use in Eagle.  
 
 ## Other Eagle Libraries:  
  1. https://github.com/sparkfun/SparkFun-Eagle-Libraries - EXCELLENT resource - looks like they keep it fully up-to-date as they build boards  
