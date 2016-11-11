@@ -1,5 +1,6 @@
 # Electric RC Aircraft Guy's Eagle Libraries  
 ## [www.ElectricRCAircraftGuy.com](http://www.electricrcaircraftguy.com/)
+## Donate & Download -- a few of my Arduino Libraries and downloads:  https://gumroad.com/gabrielstaples  
 By: Gabriel Staples  
 Readme Last Updated: 11 Nov 2016  
 
@@ -32,7 +33,4 @@ I recommend the following *excellent* Eagle tutorials (ones with asterisks I fin
 
 ## Articles I've written on Eagle:  
 http://www.electricrcaircraftguy.com/search/label/EagleCAD  
-
-# A few of my Arduino Libraries and downloads:  
-https://gumroad.com/gabrielstaples  
 
