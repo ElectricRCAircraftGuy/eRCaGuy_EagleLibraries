@@ -10,6 +10,9 @@ This library (eRCaGuy_EagleLibraries) is released under the Creative Commons Sha
  1. https://github.com/sparkfun/SparkFun-Eagle-Libraries - EXCELLENT resource - looks like they keep it fully up-to-date as they build boards  
  2. https://github.com/adafruit/Adafruit-Eagle-Library - doesn't look complete nor well-kept-up, but is useful nonetheless.  
 
+## Download Eagle:  
+https://cadsoft.io/  
+
 ## How to Use Eagle:  
 I recommend the following *excellent* Eagle tutorials (ones with asterisks I find especially useful):  
 * [Installing an Eagle Library](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle#using-the-sparkfun-libraries)
