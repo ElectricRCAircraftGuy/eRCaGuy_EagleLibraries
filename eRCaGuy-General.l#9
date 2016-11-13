@@ -2756,19 +2756,17 @@ Modified by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&
 <pad name="B2" x="0" y="7.112" drill="0.6" rot="R90"/>
 <pad name="B3" x="0" y="10.795" drill="0.6" rot="R90"/>
 </package>
-<package name="TOUCHPAD_RESISTIVE_5RING">
+<package name="TOUCHPAD_RESISTIVE_5RING_0.76IN(19.3MM)">
 <description>Originally by Sparkfun.com.&lt;br&gt;
 Modified by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&gt;www.ElectricRCAircraftGuy.com&lt;/a&gt;)&lt;br&gt;</description>
 <circle x="0" y="0" radius="3.5921" width="1.27" layer="29"/>
 <circle x="0" y="0" radius="5.3881" width="1.27" layer="29"/>
 <circle x="0" y="0" radius="7.1842" width="1.27" layer="29"/>
 <circle x="0" y="0" radius="8.9802" width="1.27" layer="29"/>
-<circle x="0" y="0" radius="10.7763" width="1.27" layer="29"/>
 <circle x="0" y="0" radius="1.796" width="1.27" layer="29"/>
 <circle x="0" y="0" radius="1.796" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="7.1842" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="8.9802" width="1.27" layer="1"/>
-<circle x="0" y="0" radius="10.7763" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="3.5921" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="5.3881" width="1.27" layer="1"/>
 <pad name="A1" x="-1.778" y="0" drill="0.6" rot="R90"/>
@@ -2776,7 +2774,22 @@ Modified by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&
 <pad name="A3" x="-9.017" y="0" drill="0.6" rot="R90"/>
 <pad name="B1" x="0" y="3.556" drill="0.6" rot="R90"/>
 <pad name="B2" x="0" y="7.112" drill="0.6" rot="R90"/>
-<pad name="B3" x="0" y="10.795" drill="0.6" rot="R90"/>
+</package>
+<package name="TOUCHPAD_RESISTIVE_4RING_0.61IN(15.5MM)">
+<description>Originally by Sparkfun.com.&lt;br&gt;
+Modified by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&gt;www.ElectricRCAircraftGuy.com&lt;/a&gt;)&lt;br&gt;</description>
+<circle x="0" y="0" radius="3.5921" width="1.27" layer="29"/>
+<circle x="0" y="0" radius="5.3881" width="1.27" layer="29"/>
+<circle x="0" y="0" radius="7.1842" width="1.27" layer="29"/>
+<circle x="0" y="0" radius="1.796" width="1.27" layer="29"/>
+<circle x="0" y="0" radius="1.796" width="1.27" layer="1"/>
+<circle x="0" y="0" radius="7.1842" width="1.27" layer="1"/>
+<circle x="0" y="0" radius="3.5921" width="1.27" layer="1"/>
+<circle x="0" y="0" radius="5.3881" width="1.27" layer="1"/>
+<pad name="A1" x="-1.778" y="0" drill="0.6" rot="R90"/>
+<pad name="A2" x="-5.334" y="0" drill="0.6" rot="R90"/>
+<pad name="B1" x="0" y="3.556" drill="0.6" rot="R90"/>
+<pad name="B2" x="0" y="7.112" drill="0.6" rot="R90"/>
 </package>
 </packages>
 <symbols>
