@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2749,12 +2749,12 @@ Modified by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&
 <circle x="0" y="0" radius="10.7763" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="3.5921" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="5.3881" width="1.27" layer="1"/>
-<pad name="A1" x="-1.778" y="0" drill="0.6" rot="R90"/>
-<pad name="A2" x="-5.334" y="0" drill="0.6" rot="R90"/>
-<pad name="A3" x="-9.017" y="0" drill="0.6" rot="R90"/>
-<pad name="B1" x="0" y="3.556" drill="0.6" rot="R90"/>
-<pad name="B2" x="0" y="7.112" drill="0.6" rot="R90"/>
-<pad name="B3" x="0" y="10.795" drill="0.6" rot="R90"/>
+<pad name="A1" x="-1.8034" y="0" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="A2" x="-5.3848" y="0" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="A3" x="-8.9916" y="0" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="B1" x="0" y="3.5814" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="B2" x="0" y="7.1882" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="B3" x="0" y="10.7696" drill="0.6" diameter="1.27" rot="R90"/>
 </package>
 <package name="TOUCHPAD_RESISTIVE_5RING_0.76IN(19.3MM)">
 <description>Originally by Sparkfun.com.&lt;br&gt;
@@ -3611,8 +3611,8 @@ Created By Gabriel Staples&lt;br&gt;
 <smd name="A" x="-6.1" y="-1.1" dx="2.85" dy="1.8" layer="1" roundness="25"/>
 <smd name="C" x="6.1" y="1.1" dx="2.85" dy="1.8" layer="1" roundness="25"/>
 <smd name="S" x="0" y="0" dx="5.2" dy="6" layer="1" roundness="50" thermals="no"/>
-<text x="-6.731" y="-3.937" size="1.27" layer="51">+</text>
-<text x="5.715" y="-1.397" size="1.27" layer="51">-</text>
+<text x="-6.731" y="-3.937" size="1.27" layer="21">+</text>
+<text x="5.715" y="-1.397" size="1.27" layer="21">-</text>
 <text x="-1.778" y="4.699" size="0.8128" layer="21">&gt;Name</text>
 <text x="-1.778" y="-5.08" size="0.6096" layer="21">&gt;Value</text>
 </package>

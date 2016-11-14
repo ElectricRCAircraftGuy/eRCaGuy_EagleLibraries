@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2769,11 +2769,11 @@ Modified by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&
 <circle x="0" y="0" radius="8.9802" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="3.5921" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="5.3881" width="1.27" layer="1"/>
-<pad name="A1" x="-1.778" y="0" drill="0.6" rot="R90"/>
-<pad name="A2" x="-5.334" y="0" drill="0.6" rot="R90"/>
-<pad name="A3" x="-9.017" y="0" drill="0.6" rot="R90"/>
-<pad name="B1" x="0" y="3.556" drill="0.6" rot="R90"/>
-<pad name="B2" x="0" y="7.112" drill="0.6" rot="R90"/>
+<pad name="A1" x="-1.8034" y="0" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="A2" x="-5.3848" y="0" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="A3" x="-8.9916" y="0" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="B1" x="0" y="3.5814" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="B2" x="0" y="7.1882" drill="0.6" diameter="1.27" rot="R90"/>
 <circle x="0" y="0" radius="9.7152" width="0.127" layer="21"/>
 </package>
 <package name="TOUCHPAD_RESISTIVE_4RING_0.61IN(15.5MM)">
@@ -6960,7 +6960,7 @@ Created By Gabriel Staples&lt;br&gt;
 <rectangle x1="6.1087" y1="1.8669" x2="6.7183" y2="1.8923" layer="21"/>
 <rectangle x1="6.2103" y1="1.8923" x2="6.6421" y2="1.9177" layer="21"/>
 </package>
-<package name="ERCAGUY_LOGO_OFFSET_0.15IN_TALL_BSTOP">
+<package name="ERCAGUY_LOGO_OFFSET_0.15IN_TALL_TSTOP">
 <rectangle x1="5.7023" y1="-1.9685" x2="6.0325" y2="-1.9431" layer="29"/>
 <rectangle x1="5.6261" y1="-1.9431" x2="6.1341" y2="-1.9177" layer="29"/>
 <rectangle x1="5.6261" y1="-1.9177" x2="6.1849" y2="-1.8923" layer="29"/>
@@ -9809,6 +9809,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </devices>
 </deviceset>
 <deviceset name="ERCAGUY_LOGO_NO_SYMBOL">
+<description>&lt;b&gt;Electric RC Aircraft Guy logos&lt;/b&gt;&lt;br&gt;
+Created By Gabriel Staples&lt;br&gt;
+&lt;a href="http://www.electricrcaircraftguy.com/"&gt;www.ElectricRCAircraftGuy.com&lt;/a&gt;&lt;br&gt;
+&lt;b&gt;Created:&lt;/b&gt; 10 Nov 2016&lt;br&gt;
+&lt;b&gt;Last Updated:&lt;/b&gt; 13 Nov 2016&lt;br&gt;&lt;br&gt; 
+
+Unless otherwise noted, these logos are in the "tPlace" (top silkscreen) layer. &lt;br&gt;
+-"_TSTOP" packages are in the "tStop" (top soldermask stop) layer, which means that if you lay them over a copper pour the text/logo will come out in the copper as uncovered copper--just like solderable pads.</description>
 <gates>
 <gate name="G$1" symbol="NO_SYMBOL" x="0" y="0"/>
 </gates>
@@ -9824,6 +9832,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </technologies>
 </device>
 <device name="_OFFSET_0.15IN" package="ERCAGUY_LOGO_OFFSET_0.15IN_TALL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_OFFSET_0.15IN_TSTOP" package="ERCAGUY_LOGO_OFFSET_0.15IN_TALL_TSTOP">
 <technologies>
 <technology name=""/>
 </technologies>

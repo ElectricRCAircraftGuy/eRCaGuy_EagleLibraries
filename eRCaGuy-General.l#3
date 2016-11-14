@@ -2731,8 +2731,8 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <circle x="0" y="0" radius="6.35" width="3.81" layer="1"/>
 <circle x="0" y="0" radius="1.796" width="3.81" layer="29"/>
 <circle x="0" y="0" radius="6.35" width="3.81" layer="29"/>
-<pad name="P$1" x="-6.35" y="0" drill="0.6" stop="no"/>
-<pad name="P$2" x="0" y="0" drill="0.6" stop="no"/>
+<pad name="P$1" x="-6.35" y="0" drill="0.6" diameter="1.27" stop="no"/>
+<pad name="P$2" x="0" y="0" drill="0.6" diameter="1.27" stop="no"/>
 </package>
 <package name="TOUCHPAD_RESISTIVE_6RING_0.9IN(22.86MM)">
 <description>Originally by Sparkfun.com.&lt;br&gt;
@@ -2787,10 +2787,10 @@ Modified by Gabriel Staples (&lt;a href="http://www.electricrcaircraftguy.com/"&
 <circle x="0" y="0" radius="7.1842" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="3.5921" width="1.27" layer="1"/>
 <circle x="0" y="0" radius="5.3881" width="1.27" layer="1"/>
-<pad name="A1" x="-1.778" y="0" drill="0.6" rot="R90"/>
-<pad name="A2" x="-5.334" y="0" drill="0.6" rot="R90"/>
-<pad name="B1" x="0" y="3.556" drill="0.6" rot="R90"/>
-<pad name="B2" x="0" y="7.112" drill="0.6" rot="R90"/>
+<pad name="A1" x="-1.8034" y="0" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="A2" x="-5.3848" y="0" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="B1" x="0" y="3.6068" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="B2" x="0.0254" y="7.1882" drill="0.6" diameter="1.27" rot="R90"/>
 </package>
 <package name="ARDUINO_NANO_FOOTPRINT_LESS_SILK_SMALLER_PADS">
 <description>Footprint for representing an Arduino Nano board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle&lt;br&gt;&lt;br&gt;
